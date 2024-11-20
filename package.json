@@ -1,0 +1,17 @@
+{
+  "name": "PersonalFinanceTracker",
+  "private": true,
+  "scripts": {
+    "dev": "wattpm dev",
+    "build": "wattpm build",
+    "start": "wattpm start"
+  },
+  "dependencies": {
+    "@platformatic/runtime": "^2.15.0",
+    "@platformatic/service": "^2.15.0",
+    "wattpm": "^2.15.0"
+  },
+  "workspaces": [
+    "web/*"
+  ]
+}
